@@ -28,14 +28,14 @@ header {
 }
 
 header > h1 {
-    padding-top: 50px;
+    padding-top: 40px;
     font-variant: small-caps;
     font-family: var(--fonte2);
     font-size: 4vw;
 }
 
 header > p {
-    padding-bottom: 50px;
+    padding-bottom: 40px;
 }
 
 a {
@@ -49,12 +49,12 @@ a:hover {
 }
 
 section {
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-    line-height: 2em;
-    padding-left: 30px;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    line-height: 1.5em;
+    padding-left: 50px;
     font-family: var(--fonte3);
-    font-size: 3vw;
+    font-size: 5vw;
 }
 
 section > p {
@@ -62,7 +62,7 @@ section > p {
 }
 
 section.normal {
-    background-color: white;
+    background-color: rgb(229, 245, 208);
     color: black;
 }
 
@@ -96,4 +96,5 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
+    font-size: 1.5vw;
 }
